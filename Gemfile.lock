@@ -101,7 +101,7 @@ GIT
 
 GIT
   remote: https://github.com/spree/spree_rails_frontend.git
-  revision: 6f6a77e66d1d51fa568e02cce968fd307ffed21a
+  revision: 37f5e67b40d5bd0637948ea9448798f84e0be57f
   branch: main
   specs:
     spree_frontend (4.7.0)
@@ -265,7 +265,7 @@ GEM
       warden (~> 1.2.3)
     devise-encryptable (0.2.0)
       devise (>= 2.1.0)
-    doorkeeper (5.6.9)
+    doorkeeper (5.7.0)
       railties (>= 5)
     drb (2.2.1)
     erubi (1.12.0)
