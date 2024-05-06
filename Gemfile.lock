@@ -101,7 +101,7 @@ GIT
 
 GIT
   remote: https://github.com/spree/spree_rails_frontend.git
-  revision: 6f6a77e66d1d51fa568e02cce968fd307ffed21a
+  revision: 63300a7f04af1e345090a7037fd0a36526bba815
   branch: main
   specs:
     spree_frontend (4.7.0)
@@ -115,8 +115,8 @@ GIT
       jquery-rails (~> 4.3)
       responders
       sass-rails (>= 5)
-      spree_api (>= 4.7.0)
-      spree_core (>= 4.7.0)
+      spree_api (~> 4.7)
+      spree_core (~> 4.7)
       sprockets (~> 4.0)
       stimulus-rails
       turbo-rails
@@ -265,7 +265,7 @@ GEM
       warden (~> 1.2.3)
     devise-encryptable (0.2.0)
       devise (>= 2.1.0)
-    doorkeeper (5.6.9)
+    doorkeeper (5.7.0)
       railties (>= 5)
     drb (2.2.1)
     erubi (1.12.0)
@@ -289,7 +289,7 @@ GEM
       activesupport (>= 6.1)
     glyphicons (1.0.2)
     highline (2.1.0)
-    i18n (1.14.4)
+    i18n (1.14.5)
       concurrent-ruby (~> 1.0)
     i18n_data (0.17.1)
       simple_po_parser (~> 1.1)
@@ -304,8 +304,8 @@ GEM
       activesupport (>= 3.0)
       nokogiri (>= 1.6)
     io-console (0.7.2)
-    irb (1.12.0)
-      rdoc
+    irb (1.13.1)
+      rdoc (>= 4.0.0)
       reline (>= 0.4.2)
     jbuilder (2.12.0)
       actionview (>= 5.0.0)
@@ -449,9 +449,9 @@ GEM
     redis-client (0.22.1)
       connection_pool
     regexp_parser (2.9.0)
-    reline (0.5.4)
+    reline (0.5.5)
       io-console (~> 0.5)
-    request_store (1.6.0)
+    request_store (1.7.0)
       rack (>= 1.4)
     requestjs-rails (0.0.11)
       railties (>= 6.1.0)
